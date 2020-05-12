@@ -1,5 +1,100 @@
 # git_learn
 How to Learn a git?All Process...
+# ======================================
+# ShortCut
+
+
+New Repository Create korar por
+===============================				
+1.git clone http://.....        						
+2.git add .							    
+3.git commit -m "first commit"					
+4.git push origin master	
+
+Another way
+===============================
+1.git init
+2.git remote add origin https://....
+3.git add .
+4.git push origin master //passowrd chibe
+				
+	
+
+
+
+
+
+
+KAJ KORAR POR ADD KORTE CHILA
+=============================
+1.git status		//ki ki change korci seta dekha jabe   			 
+2.git add .
+3,git commit -m "project add"
+4.git pull origin master	//<------ namabo
+5.git push origin master	//------>git pathabo
+
+
+
+
+
+
+
+
+
+
+
+MARGE CONFILT HOILE
+========================
+1.VIM ROUTE/WEB.PHP	//JETA COPNFILT KORBE SETA ASTE ASTE BAD DIBO
+2.ESC BUTTON
+3.:WQ
+
+MERGE KORTE CHILE:
+========================
+1.INSERT BUTTON CLICK
+2.MERGE WITH LOCAL
+3.ESC
+4.:WQ
+
+
+# Server to desktop
+# ========================
+1.git clone https://gitlab.com/amazingsoft/jobboy.git 
+    Than user_name and password
+2. cd jobboy
+3. git config credential.helper store		//save git user_name and password
+
+# All branch
+# ======================================
+
+1. git branch (List all branch)
+2. git branch <branch> (Create a new branch called <branch>.)
+3.git checkout <branchname> (checkout branch)
+
+git checkout -b <new-branch>	(creates and checks out <new-branch>)
+
+# Outher
+# ========================================
+1. git branch -d <branch>			(Delete the specified branch.)
+git branch -m <branch>		(git branch -m <branch>)
+
+
+# nijer branch eee kaj krte
+# ========================================
+First master branch eeee push korbo
+Git branch piyas
+git checkout piyas
+git push origin master:piyas
+
+# remove change
+git reset --hard HEAD
+
+
+
+
+
+# =======================================================================================
+
 
 ## lets-git
 
