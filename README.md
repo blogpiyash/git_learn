@@ -1,22 +1,43 @@
 # git_learn
 How to Learn a git?All Process...
-# ======================================
 # ShortCut
+			### Settings of git repository  ###
+###  git init
+---  used to generate a new, empty Git repository or to initialize.
+###  git clone
+---  used to obtain a development copy from repository.
+###  git config
+---  used to create it with a configuration name that displays a set value at that name.
+###  git alias
+---  creates short commands.
+
+			## Saving changes of git repository  ###
+
+###  git add
+---  used to add changes in the working directory to the staging area.
+###  git commit
+---  used to record the changes in the local repository.
+###  git diff
+---  used to compare changes committed in repository.
+###  git stash
+---  used to record the current state of the working directory.
+###  .gitignore (file)
+---   gitignore file used to allow you to ignore file.
 
 
-New Repository Create korar por
+##  New Repository Create korar por
 ===============================				
-1.git clone http://.....        						
-2.git add .							    
-3.git commit -m "first commit"					
-4.git push origin master	
+-  git clone http://.....        						
+-  git add .							    
+-  git commit -m "first commit"					
+-  git push origin master	
 
-Another way
+##  Another way
 ===============================
-1.git init
-2.git remote add origin https://....
-3.git add .
-4.git push origin master //passowrd chibe
+-  git init
+-  git remote add origin https://....
+-  git add .
+-  git push origin master //passowrd chibe
 				
 	
 
@@ -25,69 +46,60 @@ Another way
 
 
 
-KAJ KORAR POR ADD KORTE CHILA
+##  KAJ KORAR POR ADD KORTE CHILA
 =============================
-1.git status		//ki ki change korci seta dekha jabe   			 
-2.git add .
-3,git commit -m "project add"
-4.git pull origin master	//<------ namabo
-5.git push origin master	//------>git pathabo
+-  git status		//ki ki change korci seta dekha jabe   			 
+-  git add .
+-  git commit -m "project add"
+-  git pull origin master	//<------ namabo
+-  git push origin master	//------>git pathabo
 
 
-
-
-
-
-
-
-
-
-
-MARGE CONFILT HOILE
+##  MARGE CONFILT HOILE
 ========================
-1.VIM ROUTE/WEB.PHP	//JETA COPNFILT KORBE SETA ASTE ASTE BAD DIBO
-2.ESC BUTTON
-3.:WQ
+-  VIM ROUTE/WEB.PHP	//JETA COPNFILT KORBE SETA ASTE ASTE BAD DIBO
+-  ESC BUTTON
+-  :WQ
 
 MERGE KORTE CHILE:
 ========================
-1.INSERT BUTTON CLICK
-2.MERGE WITH LOCAL
-3.ESC
-4.:WQ
+-  INSERT BUTTON CLICK
+-  MERGE WITH LOCAL
+-  ESC
+-  :WQ
 
 
-# Server to desktop
-# ========================
-1.git clone https://gitlab.com/amazingsoft/jobboy.git 
+##  Server to desktop
+##  ========================
+-  git clone https://gitlab.com/amazingsoft/jobboy.git 
     Than user_name and password
-2. cd jobboy
-3. git config credential.helper store		//save git user_name and password
+-  cd jobboy
+-  git config credential.helper store		//save git user_name and password
 
-# All branch
-# ======================================
+##  All branch
+## ======================================
 
-1. git branch (List all branch)
-2. git branch <branch> (Create a new branch called <branch>.)
-3.git checkout <branchname> (checkout branch)
+-  git branch (List all branch)
+-  git branch <branch> (Create a new branch called <branch>.)
+-  git checkout <branchname> (checkout branch)
 
-git checkout -b <new-branch>	(creates and checks out <new-branch>)
+-  git checkout -b <new-branch>	(creates and checks out <new-branch>)
 
-# Outher
-# ========================================
-1. git branch -d <branch>			(Delete the specified branch.)
-git branch -m <branch>		(git branch -m <branch>)
+##  Outher
+## ========================================
+-  git branch -d <branch>			(Delete the specified branch.)
+-  git branch -m <branch>		(git branch -m <branch>)
 
 
-# nijer branch eee kaj krte
-# ========================================
+##  nijer branch eee kaj krte
+## ========================================
 First master branch eeee push korbo
-Git branch piyas
-git checkout piyas
-git push origin master:piyas
+-  Git branch piyas
+-  git checkout piyas
+-  git push origin master:piyas
 
-# remove change
-git reset --hard HEAD
+## remove change
+--  git reset --hard HEAD
 
 
 
