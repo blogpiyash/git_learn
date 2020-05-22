@@ -85,6 +85,10 @@ MERGE KORTE CHILE:
 
 -  git checkout -b <new-branch>	(creates and checks out <new-branch>)
 
+###  white = local branches
+###  green = (master) represents the active branch.
+###  red = remote branches
+
 ##  Outher
 ## ========================================
 -  git branch -d <branch>			(Delete the specified branch.)
@@ -99,7 +103,7 @@ First master branch eeee push korbo
 -  git push origin master:piyas
 
 ## remove change
---  git reset --hard HEAD
+-  git reset --hard HEAD
 
 
 
